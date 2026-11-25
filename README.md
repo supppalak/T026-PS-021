@@ -336,4 +336,4 @@ Key concepts to explain:
 
 2. **Rate-reset with constant EMI** — Use the formula `n = ⌈−log(1 − r·P/EMI) / log(1+r)⌉` to find the new tenure. If that exceeds the age-70 cap, recompute EMI with capped tenure instead.
 
-3. **Tranche precedence (BR-26)** — Checks are short-circuit: the first failing rule's ID is reported and processing stops. This ensures the reason code always maps to exactly one rule.
+3. **Tranche precedence (BR-26)** — Checks are short-circuit: the first failing rule's ID is reported and processing stops. This ensures the reason code always maps to exactly 1 rule.
